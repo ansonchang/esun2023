@@ -26,11 +26,11 @@ $ pip install -r requirements.txt
 1. 執行資料預處理步驟 : (原始 dataset 需放置在上一層 data 目錄)
 ```
 $ cd Proprocess
-$ python preprocess.py
+$ python preprocess_1202.py
 ```
 
 2. 執行模型訓練與預測 : 
 ```
 $ cd Model
-$ python predict.py
+$ python predict_1202.py
 ```
