@@ -6,8 +6,10 @@
 ```
 ├ Preprocess
 │ └ preprocess.py             (前處理與特徵工程, 在 csv 目錄產生 dataset)
+│ └ preprocess_1202.py        (複賽前處理與特徵工程, 在 csv 目錄產生 dataset)
 ├ Model
 │ └ predict.py                (Model 的預測結果, 在 output 目錄產生最終的結果)
+│ └ predict_1202.py           (複賽Model 的預測結果, 在 output 目錄產生最終的結果)
 ├ csv                         (放置 data prepocess 後的資料集目錄)
 ├ output                      (放置 model prediction 後的資料集目錄)
 ├ requirements.txt
