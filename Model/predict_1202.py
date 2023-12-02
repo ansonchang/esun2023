@@ -1,6 +1,8 @@
+import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from pycaret.classification import *
+import time
 from sklearn.metrics import f1_score
 
 all_df=pd.read_csv('../csv/all_df_1202.csv')
